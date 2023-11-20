@@ -2,7 +2,24 @@ import '../CSS/Contact.css';
 import phone from '../icon/phone.svg';
 import envelope from '../icon/envelope.svg';
 import landmark from '../icon/landmark.svg';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 function Contact() {
+    
+        const form = useRef();
+      
+        const sendEmail = (e) => {
+          e.preventDefault();
+      
+          emailjs.sendForm('service_64srsjx', 'template_0bu29ck', form.current, 'CqOO6J6Xf_TDZA3xO')
+            .then((result) => {
+                alert("Message sent");
+                form.current.reset();
+            }, (error) => {
+                console.log(error.text);
+            });
+        };
+
     return(
         <>
         <header>
@@ -13,7 +30,7 @@ function Contact() {
     <div class="Contact-wrapper">
         <div class="Contact-form">
             <h3>Send us a message</h3>
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
                 <div class="form-group">
                     <input type="text" name="name" placeholder="your name"/>
                 </div>
