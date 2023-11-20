@@ -1,0 +1,46 @@
+.h-txt{
+height: 80vh;
+display: flex;
+justify-content: space-around;
+margin: 23px 0;
+}
+.h-txt div{
+    
+        width:300px;
+        }
+.left h1{
+    color: black;
+    font-size: 30px;
+    margin-top: 190px;
+}
+.right img{
+    
+        width: 120%;
+        margin:150px 0;
+        height: 60%;
+        left:30px;
+        }
+        .w{
+            color: teal;
+            font-size: 30px;
+        }
+@media screen and (max-width:600px){
+            .right img{
+                margin: 25px;
+                width:200px;
+                height:200px;
+                left:50px;
+            }
+            .h-txt{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: c;
+            }
+            .left h1{
+                font-size: 15px;
+                margin: 25px;
+                text-align:center;
+                /* margin:9px 0; */
+            }
+        }
