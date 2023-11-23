@@ -38,6 +38,7 @@ margin: 23px 0;
                 flex-direction: column;
                 justify-content: center;
                 align-items: c;
+                margin-bottom: 2px;
             }
             .left{
                 margin-left: 10px;

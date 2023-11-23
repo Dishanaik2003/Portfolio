@@ -96,19 +96,12 @@ footer {
     bottom:0;
     width: 100%;
   } */
-  @media screen and (max-width:600px){
-    /* .Container{
-        max-width: 800px;
-        margin:0 auto;
-        margin-top: 10px;
-        
-    } */
+  @media(max-width:600px){
     .Contact{
-        /* min-height:100vh;
+        /* min-height:100vh; */
         background: color #e8f0fe;;
-       
-        text-align:"center"; */
-        margin-top: 10px;
-        padding: 10px;
+        padding: 50px;
+        text-align:"center";
+        margin-top:1px;
     }
   }

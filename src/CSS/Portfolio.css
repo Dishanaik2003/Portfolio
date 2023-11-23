@@ -31,3 +31,11 @@ ul li{
 /* hr{
     align:center;
 } */
+@media(max-width:600px){
+    .portfolio{
+        margin-bottom:5px;
+    }
+    ul li{
+        margin-bottom:2px;
+    }
+}
