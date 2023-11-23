@@ -2,23 +2,28 @@ import '../CSS/Contact.css';
 import phone from '../icon/phone.svg';
 import envelope from '../icon/envelope.svg';
 import landmark from '../icon/landmark.svg';
-import React, { useRef } from 'react';
+import loader1 from "../icon/loader1.svg";
+import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
+
 function Contact() {
-    
+    const [loader,setloader]=useState();
         const form = useRef();
-      
+        
         const sendEmail = (e) => {
           e.preventDefault();
-      
+            setloader(true);
           emailjs.sendForm('service_64srsjx', 'template_0bu29ck', form.current, 'CqOO6J6Xf_TDZA3xO')
             .then((result) => {
-                alert("Message sent");
-                form.current.reset();
+            
+            alert("Message sent");
+            setloader(false);
+            form.current.reset();
             }, (error) => {
                 console.log(error.text);
             });
         };
+
 
     return(
         <>
@@ -40,7 +45,12 @@ function Contact() {
                 <div class="form-group">
                     <textarea name="message" placeholder="your message"></textarea>
                 </div>
-                <button type="submit">Send message</button>
+            
+               { !loader ?
+        
+               ( <button type="submit">Send message</button>)
+                :
+               ( <img src={loader1}  class="icon" /> )}
             </form>
         </div>
         <div class="Contact-info">
@@ -59,7 +69,10 @@ function Contact() {
    </div>     
 
 </header>
+<footer> Created by &#169; Disha Naik</footer>
 </>
+
 );
 }
+
 export default Contact;

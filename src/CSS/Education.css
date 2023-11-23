@@ -1,0 +1,103 @@
+#education{
+    margin-top: 50px;
+    color:white;
+    margin-bottom: 50px;
+}
+#primary{
+    height: 300px;
+    width: 35%;
+    padding:15px;
+    margin-left: 15px;
+    background: #bbb;
+    color: black;
+    border: 2px solid teal;
+    transition: transform 0.5s; 
+    }
+    /* #primary:hover {
+      transform: perspective(800px) rotateX(10deg) rotateY(10deg);
+    } */
+#highschool{
+    height: 300px;
+    width: 35%;
+    padding:15px;
+    margin-left: 15px;
+    background:#bbb;
+    color:black;
+    border: 2px solid teal;
+    transition: transform 0.5s; 
+    }
+
+    /* #highschool:hover {
+      transform: perspective(800px) rotateX(10deg) rotateY(10deg);
+    } */
+    #puc{
+        height: 300px;
+        width: 35%;
+        padding:15px;
+        margin-left: 15px;
+        background:#bbb;
+        color: black;
+        border: 2px solid teal;
+        transition: transform 0.5s; 
+        }
+    
+        /* #puc:hover {
+          transform: perspective(800px) rotateX(10deg) rotateY(10deg);
+        } */
+.pd{
+    display:flex;
+    flex-direction: row;
+    padding-left:150px;
+    padding-right:150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.pd h3{
+  text-align: center;
+  color: teal;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+#education h2{
+    text-align:center;
+    color:teal;
+}
+/* #education h2:hover{
+  text-shadow:0 0 10px rgba(18,247,255,0.6),
+  0 0 20px rgba(18,247,255,0.6),
+  0 0 30px rgba(18,247,255,0.6),
+  0 0 40px rgba(18,247,255,0.6),
+  0 0 70px rgba(18,247,255,0.6),
+  0 0 80px rgba(18,247,255,0.6);;
+
+} */
+#education p{
+    text-align: center;
+}
+@media(max-width:600px){
+  .pd{
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#primary{
+  height: 300px;
+  width:70%;
+  margin-bottom: 15px;
+  padding: 15px;
+ 
+}
+#highschool{
+  height: 300px;
+  width:70%;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+#puc{
+  height: 300px;
+  width:70%;
+  margin-bottom: 15px;
+  padding: 15px;}}

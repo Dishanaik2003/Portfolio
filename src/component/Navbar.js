@@ -47,11 +47,11 @@ function Navbar() {
 
      <li><Link to="/skills">Skills</Link></li>
        )}
-       { locpath==="/portfolio"
+       { locpath==="/education"
         ?(
          ""
        ):(
-     <li><Link to="/portfolio">Services</Link></li>
+     <li><Link to="/education">Education</Link></li>
      )} 
         { locpath==="/contact"
         ?(
@@ -93,12 +93,12 @@ function Navbar() {
               <li>
               <Link to="/skills"  onClick={() => hamburger(false)}>Skills</Link>
               </li>)}
-              { location.pathname==="/portfolio"
+              { location.pathname==="/education"
          ?(
           ""
         ):( 
               <li>
-              <Link to="/portfolio"  onClick={() => hamburger(false)}>Services</Link>
+              <Link to="/education"  onClick={() => hamburger(false)}>Education</Link>
               </li>)}
                      
         { location.pathname==="/contact"
@@ -110,11 +110,13 @@ function Navbar() {
               </li>)}
             </ul>
           </div>
-        </>
+        </> 
       ) : (
         ""
       )}
     </div>
   );
+ 
 }
+
 export default Navbar;

@@ -6,8 +6,8 @@ import javascript from "../icon/javascript.svg"
 import cascad from "../icon/cascad.svg"
 import reactjs from "../icon/reactjs.svg"
 import nodejs from "../icon/nodejs.svg"
-import bootstrap from "../icon/bootstrap.svg"
-import php from "../icon/php.svg"
+// import bootstrap from "../icon/bootstrap.svg"
+// import php from "../icon/php.svg"
 function Skills() {
     return(
         <>

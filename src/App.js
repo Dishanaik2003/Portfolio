@@ -1,6 +1,6 @@
 import Navbar from "./component/Navbar";
 import About_me from "./component/About_me";
-import Portfolio from "./component/Portfolio";
+import Education from "./component/Education";
 import Contact from "./component/Contact";
 import Skills from "./component/Skills";
 import Home from './component/Home';
@@ -18,7 +18,8 @@ function App() {
           <Route path='/about' element={ <About_me />} />
           <Route path='/contact' element={ <Contact />} />
           <Route path='/skills' element={ <Skills />} />
-          <Route path='/portfolio' element={ <Portfolio/>} />
+          <Route path='/education' element={ <Education/>} />
+          
         </Routes>
         </BrowserRouter>
        
