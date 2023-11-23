@@ -9,7 +9,7 @@
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    
+    height: 56vh;
 }
 .card{
     height: 300px;
@@ -49,6 +49,7 @@ imgf{
       text-align: center;
       align-items: center;
       margin-top:50px;
+      height: 125vh;
         }
     .card{
             height: 300px;

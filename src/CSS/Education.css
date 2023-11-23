@@ -75,6 +75,11 @@
 #education p{
     text-align: center;
 }
+/* footer {
+  background-color:rgb(3, 3, 22) ;
+  color:white;
+  text-align: center;
+  padding:15px;} */
 @media(max-width:600px){
   .pd{
     padding: 10px;
@@ -100,4 +105,5 @@
   height: 300px;
   width:70%;
   margin-bottom: 15px;
-  padding: 15px;}}
+  padding: 15px;
+}}

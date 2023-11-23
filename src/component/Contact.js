@@ -69,7 +69,7 @@ function Contact() {
    </div>     
 
 </header>
-<footer> Created by &#169; Disha Naik</footer>
+
 </>
 
 );

@@ -21,6 +21,7 @@ function App() {
           <Route path='/education' element={ <Education/>} />
           
         </Routes>
+        <footer> Created by &#169; Disha Naik</footer>
         </BrowserRouter>
        
         

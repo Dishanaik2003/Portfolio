@@ -4,6 +4,7 @@ import Contact from "./Contact";
 import Portfolio from "./Portfolio";
 import Skills from "./Skills";
 import Education from"./Education";
+
 export default function Home(){
     return (
         <>
@@ -13,6 +14,7 @@ export default function Home(){
        <Education/>
         <Portfolio /> 
        <Contact />
+      
        
 
 </>

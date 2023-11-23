@@ -21,6 +21,11 @@ hr{
 .icon{
     width: 100px;
 }
+/* footer {
+    background-color:rgb(3, 3, 22) ;
+    color:white;
+    text-align: center;
+    padding:15px;} */
 @media screen and (max-width:600px){
     
     .skills{
@@ -28,6 +33,7 @@ hr{
         color:black;
         height: 50vh;
         margin-top:30px;
+        height: 62vh;
     }
     h2{
        text-align: center;

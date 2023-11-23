@@ -85,7 +85,7 @@ background-color:#98df9b ;
 .Contact-info p img{
   width: 15px;
 }
-footer {
+/* footer {
     background-color:rgb(3, 3, 22) ;
     color:white;
     text-align: center;
@@ -95,7 +95,7 @@ footer {
     right:0;
     bottom:0;
     width: 100%;
-  } */
+  } */ 
   @media(max-width:600px){
     .Contact{
         /* min-height:100vh; */
