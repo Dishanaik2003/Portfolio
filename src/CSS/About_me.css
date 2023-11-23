@@ -55,6 +55,7 @@ width:250px;
         width:200px;
         height:200px;
         left:50px;
+        margin-top: 5px;
         /* align-items: center; */
     }
     .firstsection{
@@ -66,9 +67,11 @@ width:250px;
     .rightsection h2{
         text-align: center;
         font-size: 30px;
+        margin-top: 5px;
     }
     .rightsection p{
         font-size: 15px;
+        margin-top: 5px;
     }
     .rightsection h2{
          margin:9px 0;
