@@ -1,5 +1,5 @@
 import '../CSS/Landpage.css';
-import de from "../images/de.jpg";
+import Homebase from "../icon/Homebase.gif";
 function Landpage() {
     return(
         <>
@@ -10,7 +10,7 @@ function Landpage() {
             <h1>Hi,My name is Disha Naik and I am a <div class="w">Web Developer</div></h1>
             </div>
             <div class="right">
-            <img src={de} alt="img" class="photo" />
+            <img src={Homebase} alt="img" class="photo" />
             </div>
            
             

@@ -2,7 +2,7 @@ import '../CSS/Contact.css';
 import phone from '../icon/phone.svg';
 import envelope from '../icon/envelope.svg';
 import landmark from '../icon/landmark.svg';
-import loader1 from "../icon/loader1.svg";
+import spinner2 from "../icon/spinner2.gif";
 import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -50,7 +50,7 @@ function Contact() {
         
                ( <button type="submit">Send message</button>)
                 :
-               ( <img src={loader1}  class="icon" /> )}
+               ( <img src={spinner2}  class="icon" /> )}
             </form>
         </div>
         <div class="Contact-info">
