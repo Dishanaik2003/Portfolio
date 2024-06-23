@@ -9,16 +9,14 @@ body{
   background-color:white;
 
 }
-footer {
+/* footer {
   background-color:rgb(4, 4, 38);
   color:white;
   text-align: center;
   padding:20px;
-  /* position: fixed;
-  left:0%;
-  right:0%;
-  bottom:0%; */
+  position: fixed;
   width: 100%;
   margin-bottom:0;
   bottom: 0;
-}
+} */
+

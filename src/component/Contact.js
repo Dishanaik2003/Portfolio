@@ -34,7 +34,7 @@ function Contact() {
    
     <div class="Contact-wrapper">
         <div class="Contact-form">
-            <h3>Send us a message</h3>
+            <h3>Drop a Message!</h3>
             <form ref={form} onSubmit={sendEmail}>
                 <div class="form-group">
                     <input type="text" name="name" placeholder="your name"/>
@@ -57,9 +57,9 @@ function Contact() {
         
             <h3>Contact information</h3>
            
-            <p> <img src={phone} alt="html" class="icon" />  +1 234 567 890</p>
-            <p><img src={envelope} alt="html" class="icon" />  info@gmail.com</p>
-            <p><img src={landmark} alt="html" class="icon" />  Car street,Kumta,Uttara Kannada</p>
+            <p> <img src={phone} alt="html" class="icon" /> +91 9449533627</p>
+            <p><img src={envelope} alt="html" class="icon" />  naikdisha2003@gmail.com</p>
+            <p><img src={landmark} alt="html" class="icon" />  Kodkani,Kumta,Uttara Kannada</p>
         </div>
     </div>
     </div>

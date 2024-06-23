@@ -11,15 +11,16 @@ function About_me() {
           </div>
           <div class="rightsection">
             <h2>About Me</h2>
-          
+
             <p>
-              Hello, I'm Disha Naik,and I'm passionate about crafting
-              exceptional websites that seamlessly blend creativity and
-              functionality. As a seasoned web developer with 2 yearsof
-              hands-on experience, I've had the privilege of working on diverse
-              projects, from responsive landing pages to robust e-commerce
-              platforms. My expertise lies in Front-End web development.
-            <div class="a">Let's collaborate on your next project and build something extraordinary together!</div>
+              Hello, I'm Disha Naik,aspiring Front End developer.I am currently
+              pursuing B.E degree in Computer Science and Engineering at CANARA
+              ENGINEERING COLLEGE. I'm passionate about crafting exceptional
+              websites that seamlessly blend creativity and functionality.I've
+              done projects like React based portfolio and Quiz Website using
+              HTML,CSS,JavaScript,PHP,mysql. I've done various certifications on
+              Web development.My hobbies are Listening to music and Painting.
+              {/* <div class="a">Let's collaborate on your next project and build something extraordinary together!</div> */}
             </p>
           </div>
         </div>

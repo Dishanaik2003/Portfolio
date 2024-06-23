@@ -19,6 +19,7 @@ margin: 23px 0;
         margin:130px 0;
         height: 60%;
         left:30px;
+        box-shadow: 5px 5px 6px 6px teal;
         }
         .w{
             color: teal;
